@@ -1,0 +1,128 @@
+.head{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height:50px;
+    display: flex;
+    justify-content: center;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn
+{
+    text-align: center;
+    /* margin-left: 320px; */
+    width:300px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.con{
+    /* margin-left: 480px; */
+    height: 40px;
+    border: 2px solid black;
+}
+.a{
+    text-decoration: none;
+    /* border-right:2px solid black; */
+    padding: 5px 8px 5px 8px;
+    font-weight: 20;
+    color:black;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    margin-right: 17px;
+    
+}
+a:hover{
+    /* color:black; */
+    /* font-weight: bold; */
+    /* text-decoration: underline; */
+    /* font-family: impact; */
+    border-color:black;
+}
+.phc{
+    width:100%;
+    height:400px;
+    background-color:rgb(195,164,234);
+    border: 2px solid black;
+    display: flex;
+}
+.info{
+    width:70%;
+    
+}
+.one,two{
+    margin-left:40px;
+    margin-top: 2px;
+    
+}
+.one{
+    background-color: coral;
+    color:black;
+    border-radius: 50px;
+    font-size: 18px;
+border:2px solid black;}
+.one:hover{
+    background-color: blueviolet;
+}
+.two:hover{
+    background-color: blueviolet;
+}
+.two{
+    background-color: whitesmoke;
+    color:black;
+    border-radius: ;
+    font-size: 18px;
+}
+.sc{
+    width:100%;
+    height:400px;
+    text-align: right;
+}
+
+.font{
+    font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:60px;
+}
+.card{
+    background-color: rgb(195,164,234);
+    width:350px;
+    height:500px;
+    border: 2px solid black;
+    padding:1rem;
+    margin-left:1.5rem;
+    margin-top:1rem;
+    display:flex;
+    flex-direction: column;
+
+}
+.cardimg{
+    width:350px;
+    height:300px;
+    border: 2px solid black;
+}
+.card-title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.click1{
+    text-align: center;
+
+}
+.me{
+    display:flex;
+    justify-content: space-evenly;
+}
+.cardimg:hover{
+    border:4px solid black;
+}
