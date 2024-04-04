@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gameplay</title>
+    <style>
+        /* *{
+            background-color:burlywood;
+        } */
+        body {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .id1 {
+            width: 250px;
+            height: 250px;
+            background-color: crimson;
+            text-align: center;
+
+            border-radius: 30%;
+            border: 3px dashed black;
+        }
+
+        #num {
+            border: 2px solid black;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<!-- <body style="display:flex; justify-content: center; align-items: center;"> -->
+
+<body>
+
+    <div class="id1">
+        <div class="block">
+        <h1 class="heading" style="color:blue;">Guess Playing Game.</h1>
+
+
+        <button onclick="get_num()">Guess number(1-10)</button>
+    </div>
+        <input id="num" type="number" onkeypress="playSound()" placeholder="Enter your Number">
+        <p id="correct" style="display: none;">Your guess is right</p>
+        <p id="incorrect" style="display: none;border:2px solid black; background-color: blanchedalmond;">Your guess is
+            wrong.Try Again....</p>
+    </div>
+
+    <script src="mathday4.js"></script>
+</body>
+
+</html>
